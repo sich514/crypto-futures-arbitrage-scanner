@@ -349,7 +349,7 @@ func main() {
 
 	scanner := NewFuturesScanner()
 
-	symbols := []string{"BTCUSDT", "ETHUSDT", "XRPUSDT", "SOLUSDT"}
+	symbols := []string{"BTCUSDT", "ETHUSDT", "XRPUSDT", "SOLUSDT", "XPLUSDT"}
 
 	// Start processing goroutines
 	go scanner.processPrices()
